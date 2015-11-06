@@ -15,6 +15,7 @@
 		F27DFC971BEC310900A88102 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F27DFC951BEC310900A88102 /* LaunchScreen.storyboard */; };
 		F27DFCA21BEC310900A88102 /* PracticeCategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F27DFCA11BEC310900A88102 /* PracticeCategoryTests.m */; };
 		F27DFCAD1BEC310900A88102 /* PracticeCategoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F27DFCAC1BEC310900A88102 /* PracticeCategoryUITests.m */; };
+		F27DFCBC1BEC321500A88102 /* NSString+ReversedString.m in Sources */ = {isa = PBXBuildFile; fileRef = F27DFCBB1BEC321500A88102 /* NSString+ReversedString.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F27DFCA81BEC310900A88102 /* PracticeCategoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticeCategoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F27DFCAC1BEC310900A88102 /* PracticeCategoryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PracticeCategoryUITests.m; sourceTree = "<group>"; };
 		F27DFCAE1BEC310900A88102 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F27DFCBA1BEC321500A88102 /* NSString+ReversedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ReversedString.h"; sourceTree = "<group>"; };
+		F27DFCBB1BEC321500A88102 /* NSString+ReversedString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ReversedString.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		F27DFC861BEC310900A88102 /* PracticeCategory */ = {
 			isa = PBXGroup;
 			children = (
+				F27DFCBA1BEC321500A88102 /* NSString+ReversedString.h */,
+				F27DFCBB1BEC321500A88102 /* NSString+ReversedString.m */,
 				F27DFC8A1BEC310900A88102 /* AppDelegate.h */,
 				F27DFC8B1BEC310900A88102 /* AppDelegate.m */,
 				F27DFC8D1BEC310900A88102 /* ViewController.h */,
@@ -272,6 +277,7 @@
 			files = (
 				F27DFC8F1BEC310900A88102 /* ViewController.m in Sources */,
 				F27DFC8C1BEC310900A88102 /* AppDelegate.m in Sources */,
+				F27DFCBC1BEC321500A88102 /* NSString+ReversedString.m in Sources */,
 				F27DFC891BEC310900A88102 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
